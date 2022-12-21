@@ -2,32 +2,27 @@
 Hello This is my Storage of dotfile, in case i wanna change or using old dotfiles</br>
 feel free to use my trash stuff :wink:
 
-**Wait for me to change my hard drive so i can upload old stuff, smh**</br>
-**no stuff exist yet**
+~~Wait for me to change my hard drive so i can upload old stuff, smh~~</br>
+~~no stuff exist yet~~
+
+Old stuff are gone :cry:. But hey i got my latest Bspwm dotfiles!
 
 <!-- favthing -->
 ### WM that i often to use
-- jwm
 - openbox
-- i3-gaps
+- bspwm
 
 ### DE that i often to use
-- KDE
 - XFCE4
 - LXDE
 
-## My Beloved Lincox Stuff
-- Neovim
+## My Beloved Stuff
 - Kitty
+- urxvt
 - rofi
-- polybar
+- dmenu
 - tint2
 - ranger
-- xplr
-- vim
-- helix
-- zsh
-- nitrogen
 - feh
 - picom
 - pcmanfm
@@ -38,9 +33,9 @@ feel free to use my trash stuff :wink:
 ## My Beloved Color Scheme
 - Nord
 - Catppuccin
+- Gruvbox
 
 ## My Beloved Distro
-- ArcoLinux
 - EndeavourOS
 - Debian
 - Void Linux
