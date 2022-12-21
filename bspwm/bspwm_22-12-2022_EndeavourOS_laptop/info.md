@@ -23,7 +23,7 @@ This is a very bare bone dependencies to run my rice. Not recommended because it
 - [dmenu](https://tools.suckless.org/dmenu/) (recommended using [dmenu2](https://github.com/spcmd/dmenu2) | [aur](https://aur.archlinux.org/packages/dmenu2) ) (Menu)
 - [j4-dmenu-desktop](https://github.com/enkore/j4-dmenu-desktop) (dmenu tool to make `.desktop` file menu (Application menu not CLI Application))
 - [lemonbar-xft](https://github.com/drscream/lemonbar-xft) (Status bar)
-- [Succade](https://github.com/domsson/succade) (lemonbar wrapper. **Optional if you want to configure it again for yourself**)
+- [Succade](https://github.com/domsson/succade) (lemonbar wrapper)
 - [feh](https://github.com/derf/feh) (For wallpaper)
 - [dunst](https://github.com/dunst-project/dunst) (Notification Daemon)
 - [slock](https://tools.suckless.org/slock/) (Screen Locker)
