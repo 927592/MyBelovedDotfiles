@@ -1,6 +1,7 @@
 # Info
 
 This is bspwm rice of touhou character Yukari Yakumo.<br>
+GTK theme are inside the zip compressed file, Created using oomox.
 
 <details>
   
@@ -49,3 +50,4 @@ This is a very bare bone dependencies to run my rice. Not recommended because it
 - ranger (File Manager) (TUI)
 - xed (Text Editor) (GUI)
 - neovim (Text Editor) (TUI)
+- firefox (Browser) (GUI)
