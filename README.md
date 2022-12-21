@@ -7,35 +7,8 @@ feel free to use my trash stuff :wink:
 
 Old stuff are gone :cry:. But hey i got my latest Bspwm dotfiles!
 
-<!-- favthing -->
-### WM that i often to use
-- openbox
-- bspwm
+<!-- currentstuff -->
+### Wm that i use
+- Openbox
+- Bspwm
 
-### DE that i often to use
-- XFCE4
-- LXDE
-
-## My Beloved Stuff
-- Kitty
-- urxvt
-- rofi
-- dmenu
-- tint2
-- ranger
-- feh
-- picom
-- pcmanfm
-- ristretto
-- aseprite
-- libresprite
-
-## My Beloved Color Scheme
-- Nord
-- Catppuccin
-- Gruvbox
-
-## My Beloved Distro
-- EndeavourOS
-- Debian
-- Void Linux
