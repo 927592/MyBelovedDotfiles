@@ -6,12 +6,12 @@ GTK theme are inside the zip compressed file, Created using oomox.
 <details>
   
   <summary>Preview</summary>
-  1. On screen: lemonbar
+  1. On screen: lemonbar & xbattbar
   <img src="https://raw.githubusercontent.com/927592/MyBelovedDotfiles/main/bspwm/bspwm_22-12-2022_EndeavourOS_laptop/preview.png">
-  2. On screen: lemonbar, urxvt, dunst + mpd-notification, and dmenu(j4-dmenu-desktop).<br>
+  2. On screen: lemonbar, xbattbar, urxvt, dunst + mpd-notification & dmenu(j4-dmenu-desktop).<br>
   On urxvt: tmux, ranger, ncmpcpp, epr.
   <img src="https://raw.githubusercontent.com/927592/MyBelovedDotfiles/main/bspwm/bspwm_22-12-2022_EndeavourOS_laptop/preview1.png">
-  3. On screen: lemonbar & urxvt
+  3. On screen: lemonbar, urxvt & xbattbar
   On urxvt: asciiworld, neofetch, and ncmpcpp
   <img src="https://raw.githubusercontent.com/927592/MyBelovedDotfiles/main/bspwm/bspwm_22-12-2022_EndeavourOS_laptop/preview2.png">
   
