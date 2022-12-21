@@ -37,6 +37,7 @@ This is a very bare bone dependencies to run my rice. Not recommended because it
 - [neofetch](https://github.com/dylanaraps/neofetch) (For Fetching System Information.**Optional**) (CLI)
 - [wmutils](https://github.com/wmutils/core) | [aur](https://aur.archlinux.org/packages/wmutils-git) (For double border. **Recommended**.)
 - [Urxvt/rxvt-unicode](software.schmorp.de/pkg/rxvt-unicode.html) (Terminal. Very Recommended to use [truecolor-wide-glyphs](https://aur.archlinux.org/packages/rxvt-unicode-truecolor-wide-glyphs) patch on aur, to make nerd font glyph displayed. **Highly Recommended**)
+- [picom](https://github.com/yshui/picom) (Compositor. **Highly Recommended**)
 - Any [Polkit](https://wiki.archlinux.org/title/Polkit) for handling something that need permission (ex.Opening File Manager using Root permission. **Highly Recommended**)
 
 #### Misc
