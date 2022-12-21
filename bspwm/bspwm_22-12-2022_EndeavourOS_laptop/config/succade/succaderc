@@ -1,0 +1,63 @@
+[bar]
+name = "lebar"
+font = "Yakumo Preschool Hand"
+label-font = "TerminessTTF NF"
+blocks = "menu desktop song | | time vol screen"
+height = 24
+areas = 16
+foreground = "#ab4d5b"
+background = "#000000"
+line-color = "#fefefe"
+line-width = 2
+
+[default]
+label-foreground = "#fefefe"
+affix-foreground = "#fefefe"
+margin = 8
+
+[menu]
+mouse-left = mainmenu
+raw = true
+command = echo "≡"
+underline = false
+
+[desktop]
+command = "bspc query -D -d focused --names"
+trigger = "bspc subscribe"
+underline = false
+
+[song]
+raw = true
+command = ncmpcpp --current-song "%a - %t"
+interval = 1
+label = ""
+prefix = " "
+suffix = " "
+mouse-left = "mpc toggle"
+padding-left = 1
+
+[time]
+command = "date +'%H:%M'"
+interval = 1
+mouse-left = "bsploat urxvt -e calcurse"
+margin-right = 8
+
+[vol]
+label = "墳"
+command = "pamixer --get-volume"
+interval = 1
+suffix = " |"
+prefix = "| "
+scroll-up = "pamixer -i 5"
+scroll-down = "pamixer -d 5"
+mouse-left = "pamixer -t"
+padding-left = 1
+
+[screen]
+label = ""
+command = "brightnessctl g"
+interval = 1
+scroll-up = "brightnessctl set +10%"
+scroll-down = "brightnessctl set 10%-"
+padding-left = 1
+margin = 1
