@@ -1,0 +1,21 @@
+#!/bin/bash
+
+function mainmenu {
+
+    opt="Cancel\nApp\nPower\nSettings\nCommand"
+    sel=$(echo -e $opt | dmenu -sb '#AB4D5B' -w 150 -l 5 -p Menu -y 44 -x 20 -i)
+    if [[ $sel = Cancel ]]; then
+      return
+    elif [[ $sel = App ]]; then
+      j4-dmenu-desktop --dmenu="dmenu -l 46 -i -sb '#AB4D5B' -w 200 -p App -x 20 -y 44"
+    elif [[ $sel = Power ]]; then
+      powermenu
+    elif [[ $sel = Settings ]]; then
+      settingdmenu
+    elif [[ $sel = Command ]]; then
+      dmenu_run -i -sb '#AB4D5B' -w 200 -l 46 -p Run -x 20 -y 44
+    fi
+    
+}
+
+mainmenu

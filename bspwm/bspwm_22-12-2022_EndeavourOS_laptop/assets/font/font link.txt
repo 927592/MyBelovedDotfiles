@@ -1,0 +1,11 @@
+https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/Terminus.zip
+https://www.fontspace.com/yakumo-preschool-hand-font-f31753 (Freeware font you can change it to something if you don't like it)
+
+how to search font
+use (this command is case sensitive!)
+fc-list | grep "fontname"
+
+if its has no output:
+- its not correctly installed
+- typo on grep "fontname"
+- wrong font name

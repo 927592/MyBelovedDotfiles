@@ -1,0 +1,21 @@
+#!/bin/bash
+
+function settings {
+
+	opt="Cancel\nNetwork\nAudio\nBluetooth\nTheme"
+	sel=$(echo -e $opt | dmenu -sb '#AB4D5B' -w 150 -l 6 -p Settings -y 44 -x 20 -i)
+	if [[ $sel = "Cancel" ]]; then
+		return
+	elif [[ $sel = "Audio" ]]; then
+		bsploat urxvt -e alsamixer
+	elif [[ $sel = "Network" ]]; then
+		networkmanager_dmenu -sb '#AB4D5B' -w 250 -l 6 -y 610 -x 1104 -i
+	elif [[ $sel = "Bluetooth" ]]; then
+		bsploat urxvt -e bluetuith
+	elif [[ $sel = "Theme" ]]; then
+		lxappearance
+	fi
+
+}
+
+settings

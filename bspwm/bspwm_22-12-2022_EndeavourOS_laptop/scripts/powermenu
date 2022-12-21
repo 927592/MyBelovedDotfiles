@@ -1,0 +1,23 @@
+#!/bin/bash
+
+function powermenu {
+
+	opt="Cancel\nShutdown\nRestart\nSleep\nLock\nLogout"
+	sel=$(echo -e $opt | dmenu -sb '#AB4D5B' -w 150 -l 6 -p Power -y 44 -x 20 -i)
+	if [[ $sel = "Shutdown" ]]; then
+		systemctl poweroff
+	elif [[ $sel = "Restart" ]]; then
+		systemctl reboot
+	elif [[ $sel = "Sleep" ]]; then
+		systemctl suspend
+	elif [[ $sel = "Lock" ]]; then
+		slock
+	elif [[ $sel = "Cancel" ]]; then
+		return
+	elif [[ $sel = "Logout" ]]; then
+		bspc quit
+	fi
+
+}
+
+powermenu
