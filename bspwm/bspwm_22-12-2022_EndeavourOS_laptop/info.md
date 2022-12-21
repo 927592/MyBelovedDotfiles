@@ -19,7 +19,7 @@ This is bspwm rice of touhou character Yukari Yakumo.<br>
 ### Dependencies
 
 - [bspwm](https://github.com/baskerville/bspwm) (The window manager it self, Smh.)
-- dmenu (recommended using [dmenu2](https://github.com/spcmd/dmenu2) | [aur](https://aur.archlinux.org/packages/dmenu2) ) (Menu)
+- [dmenu](https://tools.suckless.org/dmenu/) (recommended using [dmenu2](https://github.com/spcmd/dmenu2) | [aur](https://aur.archlinux.org/packages/dmenu2) ) (Menu)
 - [lemonbar-xft](https://github.com/drscream/lemonbar-xft) (Status bar)
 - [Succade](https://github.com/domsson/succade) (lemonbar wrapper. **Optional if you want to configure it again for yourself**)
 - [feh](https://github.com/derf/feh) (For wallpaper)
