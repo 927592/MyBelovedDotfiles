@@ -1,7 +1,8 @@
 # Info
 
 This is bspwm rice of touhou character Yukari Yakumo.<br>
-GTK theme are inside the zip compressed file, Created using oomox.
+GTK theme are inside the zip compressed file, Created using oomox<br>
+for the GTK icon you can create it with oomox.
 
 <details>
   
