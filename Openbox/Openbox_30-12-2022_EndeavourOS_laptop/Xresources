@@ -55,7 +55,7 @@ URxvt.scrollBar_right: false
 URxvt.urgentOnBell: true
 URxvt.depth: 24
 URxvt.iso14755: false
-URxvt.backgroundPixmap: /home/han/.pixmap.png;style=tiled
+URxvt.backgroundPixmap: $HOME/pixmap.png;style=tiled
 
 !! Common Keybinds for Navigations
 URxvt.keysym.Shift-Up: command:\033]720;1\007
