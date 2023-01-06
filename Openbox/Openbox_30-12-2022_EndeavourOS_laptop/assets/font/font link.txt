@@ -1,0 +1,10 @@
+https://www.nerdfonts.com/font-downloads
+
+how to search font
+use (this command is case sensitive!)
+fc-list | grep "fontname"
+
+if its has no output:
+- its not correctly installed
+- typo on grep "fontname"
+- wrong font name

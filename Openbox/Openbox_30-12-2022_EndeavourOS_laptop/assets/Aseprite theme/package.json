@@ -1,0 +1,20 @@
+{
+  "name": "patche-theme",
+  "displayName": "Anemia Theme",
+  "description": "Anemia theme",
+  "version": "1.0",
+  "author": { "name": "927592", "email": "thisistoonsane@gmail.com", "url": "https://github.com/927592/" },
+  "contributors": [
+    {}
+  ],
+  "publisher": "abbabon",
+  "license": "MIT",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      { "id": "Anemia", "path": "." }
+    ]
+  }
+}
