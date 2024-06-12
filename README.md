@@ -7,7 +7,7 @@ feel free to use and explore my junk :wink:
 
 Old stuff are gone :cry:. But hey i got my latest Bspwm dotfiles!<br>
 Also don't forget to check "README.md" inside the dotfiles folder for more information of the dotfiles you are looking 😃.
-> For further more question you can contact me on discord "sleepyhan#6393"
+> For further more question you can contact me on discord "k_llyourself"
 
 <!-- currentstuff -->
 ### Wm that i use
